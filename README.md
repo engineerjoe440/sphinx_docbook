@@ -15,8 +15,8 @@ python3 -m pip install sphinx_docbook
 Before installing `sphinx_docbook` on Linux, you'll need the following
 prerequisites:
 
-* libxml2 and headers (**libxml2** and **libxml2-dev**)
-* Python bindings for libxml2 (**python3-lxml**)
+* libxml2 and headers
+* Python bindings for libxml2
 * libxslt1 headers (**libxslt1-dev**)
 * Python headers (**python3-dev**)
 
@@ -24,6 +24,12 @@ prerequisites:
 
 ```shell
 sudo apt-get install libxml2 libxml2-dev libxslt1-dev python3-lxml python3-dev
+```
+
+**You can install these on Fedora** by running:
+
+```shell
+sudo dnf install libxml2 libxml2-devel libxslt-devel python3-lxml python3-devel
 ```
 
 ### DocBook template files
